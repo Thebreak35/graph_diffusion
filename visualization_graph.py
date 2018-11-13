@@ -6,7 +6,7 @@ import pprint as pp
 
 
 def rnd():
-	return uniform(0, 1000)
+	return uniform(0, 1000000)
 
 def isInfect(prob):
 	if uniform(0, 1) < prob:
@@ -49,7 +49,7 @@ u = []
 u_appended = []
 pos = []
 e = []
-activate_set = [1920, 136, 754]
+activate_set = [1920, 136, 754, 582, 630, 1489, 1119, 1712]
 activate_used = []
 
 not_included = 0
