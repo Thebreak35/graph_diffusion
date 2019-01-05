@@ -14,7 +14,7 @@ def isInfect(prob):
 	return False
 
 def printGraph(name, before):
-	name = name + ".png"
+	name = name + ".pdf"
 
 	G = nx.Graph()
 	G.add_edges_from(e)
@@ -38,7 +38,7 @@ def printGraph(name, before):
 	                   alpha=0.9)
 	if before:
 		nx.draw_networkx_edges(G,pos,width=0.1,alpha=0.5,color='grey')
-	plt.savefig(name, format="PNG")
+	plt.savefig(name, format="PDF")
 	G.clear()
 	return
 
